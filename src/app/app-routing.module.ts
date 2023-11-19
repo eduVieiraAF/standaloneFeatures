@@ -6,11 +6,13 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    component: HomeComponent,
+    title: 'Home'
   },
   {
     path: 'about',
-    component: AboutComponent
+    component: AboutComponent,
+    title: 'About'
   }
 ];
 
